@@ -1,42 +1,70 @@
-# Mini-Project
+<a id="title"></a>
+# Redux Refactor 
 
-In this activity, you will refactor an application that uses the Context API so that it handles state using the open source JavaScript library Redux.
+<a id="description"></a>
+## Description
+This is an example of managing a global state using Redux, refactoring for Context API.
 
-## Instructions
+## Table of Contents
+- [Title](#title)
+- [Description](#description)
+- [Badges](#badges)
+- [Visuals](#visuals)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Authors and Acknowledgment](#acknowledgment)
+- [License](#license)
+- [Project Status](#status)
 
-* Begin by installing the `redux`, `react-redux`, `vitest`, `happy-dom`, and `@testing-library/react` libraries with `npm`.
+<a id="badges"></a>
+## Badges
+![Maury Hughes IV](https://img.shields.io/badge/Maury%20Hughes%20IV-5A2BE2)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-* Create a `store.js` file in the `utils` directory. This file should do the following:
+<a id="installation"></a>
+## Installation
+Will just need to run npm i for required installation.
 
-  * Import `{ createStore }` from `redux`.
+<a id="usage"></a>
+## Usage
+This code is best use as a reference.
 
-  * Import `reducers` from `./reducers`.
+<a id="Visuals"></a>
+## Visuals
+NA
 
-  * Create a default export of `createStore` that accepts an argument of `reducers`.
+<a id="tests"></a>
+## Tests
+Tested in the localhost.
 
-* Open `/utils/CarContext.js` and import `{ Provider }` from `react-redux` and `store` from `./store`.
+<a id="questions"></a>
+## Questions
+If you have any questions about the contents. Please feel free to reach out!
+Here is my [Github](https://github.com/MauryIV) as well as my email <mauryhughesiv@gmail.com>.
 
-* Refactor the `CarProvider` component so that it returns `<Provider>` with an attribute of `store`, set to the value of `store`.
+<a id="roadmap"></a>
+## Roadmap
+NA
 
-* Clean up any unused code left over from the React Hooks.
+<a id="contributing"></a>
+## Contributing
+Always open to suggestions and ways to improve my code.
 
-* Run the application, using `npm run start`, to ensure that functionality is unchanged for the end user.
+<a id="acknowledgment"></a>
+## Authors and Acknowledgment
+The code was initially provided by DU Coding Bootcamp, along with the final overview.
 
----
+<a id="license"></a>
+## License
+MIT License © 2024 Maury Hughes IV
+Please refer to this link, [License: MIT](https://opensource.org/licenses/MIT) for more information.
 
-## 💡 Hints
+<a id="status"></a>
+## Project Status
+Completed
 
-How can we use the [Redux Fundamentals guide](https://redux.js.org/tutorials/fundamentals/part-1-overview) to find examples of implementation?
-
-What needs to be changed, if anything, inside the `reducers.js` file?
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your partner to further your knowledge:
-
-* Instead of using `createContext`, how can we use `Redux.createStore` and the existing `reducer` to generate the initial state and to calculate any future updates?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+[back to top](#title)
