@@ -35,7 +35,9 @@ This code is best use as a reference.
 
 <a id="Visuals"></a>
 ## Visuals
-NA
+![Screenshot 2024-05-30 at 12 08 45 PM](https://github.com/MauryIV/redux-refactor/assets/146037880/d5c2a92b-5c6f-4d4f-9948-0adffec94757)
+![Screenshot 2024-05-30 at 12 09 19 PM](https://github.com/MauryIV/redux-refactor/assets/146037880/eb597362-cdb9-4fa5-aef8-d5801364962a)
+![Screenshot 2024-05-30 at 12 09 34 PM](https://github.com/MauryIV/redux-refactor/assets/146037880/41871367-697f-4d2d-a9a8-bd655270dbd7)
 
 <a id="tests"></a>
 ## Tests
